@@ -19,12 +19,12 @@ public class Inimigo {
 
     public void atacar(Personagem personagem) {
         System.out.println("O inimigo " + nome + " atacou o personagem " + personagem.getNome());
-        int energiaAtaque = nivel * 2; // Exemplo de cálculo de energia de ataque, adapte conforme necessário.
+        int energiaAtaque = nivel * 2; 
         int novaEnergiaPersonagem = personagem.getEnergia() - energiaAtaque;
         personagem.setEnergia(novaEnergiaPersonagem);
     }
 
-    // Getters e setters (caso necessário)
+    // Getters e setters 
 
     public String getNome() {
         return nome;
