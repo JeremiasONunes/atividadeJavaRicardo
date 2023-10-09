@@ -43,7 +43,7 @@ public class MundoVirtual {
 
     // Outros métodos de gerenciamento do mundo
 
-    // Getters e setters (caso necessário)
+    // Getters e setters
 
     public String[][] getMapa() {
         return mapa;
