@@ -17,7 +17,8 @@ public class Habilidade {
         personagem.setEnergia(novaEnergia);
     }
 
-    // Getters e setters (caso necessário)
+    // Getters e setters 
+    
     
     public void setPersonagem(Personagem personagem) {
         this.personagem = personagem;
