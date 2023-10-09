@@ -30,7 +30,7 @@ public class Missao {
         this.objetivos = progresso;
     }
 
-    // Getters e setters (caso necessário)
+    // Getters e setters 
 
     public String getTitulo() {
         return titulo;
