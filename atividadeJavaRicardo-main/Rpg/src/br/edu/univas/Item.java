@@ -16,7 +16,7 @@ public class Item {
         System.out.println("Você usou o item " + nome);
         System.out.println("Você aplicou os efeitos " + efeitos );
     }
-    // Getters e setters (caso necessário)
+    // Getters e setters 
 
     public String getNome() {
         return nome;
